@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29721.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBo.Server", "PiBo\Server\PiBo.Server.csproj", "{EED3C521-8473-4EE5-A9DF-A90AAA5CDC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBo.Client", "PiBo\Client\PiBo.Client.csproj", "{5BA717CD-1BF6-449F-8E64-2DFD6CA04A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBo.Shared", "PiBo\Shared\PiBo.Shared.csproj", "{FD3C9A4B-ABF6-419A-B9A7-FEF18BAEF757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBo.Services.FolderImport", "PiBo.Services.FolderImport\PiBo.Services.FolderImport.csproj", "{5E54CDE9-C1B4-45D7-882B-795EF5B73EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBo.Core", "PiBo.Core\PiBo.Core.csproj", "{47866513-711D-4ABA-8A2F-C350F20DAB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBo.DB.EmbeddedRavenDb", "PiBo.DB.EmbeddedRavenDb\PiBo.DB.EmbeddedRavenDb.csproj", "{93E90484-C67E-40A1-9AF0-1A86557D3CE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EED3C521-8473-4EE5-A9DF-A90AAA5CDC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED3C521-8473-4EE5-A9DF-A90AAA5CDC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED3C521-8473-4EE5-A9DF-A90AAA5CDC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED3C521-8473-4EE5-A9DF-A90AAA5CDC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA717CD-1BF6-449F-8E64-2DFD6CA04A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA717CD-1BF6-449F-8E64-2DFD6CA04A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA717CD-1BF6-449F-8E64-2DFD6CA04A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA717CD-1BF6-449F-8E64-2DFD6CA04A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3C9A4B-ABF6-419A-B9A7-FEF18BAEF757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3C9A4B-ABF6-419A-B9A7-FEF18BAEF757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3C9A4B-ABF6-419A-B9A7-FEF18BAEF757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3C9A4B-ABF6-419A-B9A7-FEF18BAEF757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E54CDE9-C1B4-45D7-882B-795EF5B73EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E54CDE9-C1B4-45D7-882B-795EF5B73EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E54CDE9-C1B4-45D7-882B-795EF5B73EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E54CDE9-C1B4-45D7-882B-795EF5B73EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47866513-711D-4ABA-8A2F-C350F20DAB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47866513-711D-4ABA-8A2F-C350F20DAB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47866513-711D-4ABA-8A2F-C350F20DAB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47866513-711D-4ABA-8A2F-C350F20DAB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E90484-C67E-40A1-9AF0-1A86557D3CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E90484-C67E-40A1-9AF0-1A86557D3CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E90484-C67E-40A1-9AF0-1A86557D3CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E90484-C67E-40A1-9AF0-1A86557D3CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC8DFAD1-B531-4244-A66D-B2ABD9D260AD}
+	EndGlobalSection
+EndGlobal
